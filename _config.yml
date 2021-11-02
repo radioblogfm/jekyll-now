@@ -6,7 +6,7 @@ language: 'es-ES'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: https://www.radiovikinga.com.ar/
 
 # Website info
 title: Vikinga
@@ -15,19 +15,19 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
+CNAME: https://www.radiovikinga.com.ar/ #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: radiovikinga # replace by your username
+facebook: radiovikinga # replace by your username
 
 # Disqus
-disqus: False
-disqus_shortname: jekyllt # replace with your disqus username
+disqus: true
+disqus_shortname: blogfmargentina # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-69281367-1 # replace with your GA tracking identifier
